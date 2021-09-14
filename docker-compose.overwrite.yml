@@ -3,4 +3,4 @@ services:
   test:
     image: nginx
     ports:
-      - ${PORT}:${PORT}
+      - 7373:7373
