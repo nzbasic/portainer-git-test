@@ -3,4 +3,4 @@ services:
   test:
     image: nginx
     ports:
-      - $PORT:$PORT
+      - ${PORT}:${PORT}
