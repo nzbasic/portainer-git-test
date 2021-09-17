@@ -3,4 +3,4 @@ services:
   test:
     image: nginx
     ports:
-      - 1217:1217
+      - 1213:1213
