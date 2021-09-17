@@ -1,6 +1,4 @@
 version: '3.8'
 services:
   test:
-    image: nginx
-    ports:
-      - a
+    image: nginx:aa
