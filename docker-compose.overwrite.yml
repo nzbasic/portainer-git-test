@@ -1,6 +1,6 @@
 version: '3'
 services:
-  test:
+  test2:
     image: ${IMAGE_NAME}
     ports:
       - 7373:7373
