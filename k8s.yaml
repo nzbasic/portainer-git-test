@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment-test73
+  name: nginx-deployment-test1
   labels:
     app: nginx
 spec:
