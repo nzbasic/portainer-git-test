@@ -1,10 +1,10 @@
 version: '3'
 services:
-  1:
+  svc1:
     image: nginx
     ports:
       - 1:1
-  2:
+  svc2:
     image: nginx
     ports:
       - 1:2
