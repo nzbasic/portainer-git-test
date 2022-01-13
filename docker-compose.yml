@@ -3,7 +3,7 @@ services:
   svc1:
     image: nginx
     ports:
-      - 1:1
+      - 1:10
   svc2:
     image: nginx
     ports:
