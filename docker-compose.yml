@@ -1,6 +1,11 @@
 version: '3'
 services:
-  test3:
+  1:
     image: nginx
     ports:
-      - 7373:3539
+      - 1:1
+  2:
+    image: nginx
+    ports:
+      - 1:2
+     
