@@ -7,4 +7,4 @@ services:
   svc2:
     image: nzbasic/test
     ports:
-      - 20:20
+      - 20:2
