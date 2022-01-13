@@ -1,6 +1,10 @@
 version: '3'
 services:
-  test:
-    image: nginx
+  svc1:
+    image: nzbasic/test
     ports:
-      - 3:3
+      - 10:1
+  svc2:
+    image: nzbasic/test
+    ports:
+      - 20:2
