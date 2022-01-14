@@ -1,9 +1,9 @@
-version: '3.8'
+version: '3'
 services:
   svc1:
     image: nginx
     ports:
-      - 1111:1111
+      - 1111:1112
   svc2:
     image: nginx
     ports:
