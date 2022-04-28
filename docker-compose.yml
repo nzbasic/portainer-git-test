@@ -3,9 +3,9 @@ services:
   svc1:
     image: nginx
     ports:
-      - 1111:1112
+      - 1111:1113
   svc2:
     image: nginx
     ports:
-      - 2222:2222
+      - 2222:2223
      
